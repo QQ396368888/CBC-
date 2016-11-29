@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB2BB42E1DED260B00F5B074 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2BB42D1DED260B00F5B074 /* main.m */; };
+		CB2BB4311DED260B00F5B074 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2BB4301DED260B00F5B074 /* AppDelegate.m */; };
+		CB2BB4341DED260B00F5B074 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2BB4331DED260B00F5B074 /* ViewController.m */; };
+		CB2BB4371DED260B00F5B074 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2BB4351DED260B00F5B074 /* Main.storyboard */; };
+		CB2BB4391DED260B00F5B074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB2BB4381DED260B00F5B074 /* Assets.xcassets */; };
+		CB2BB43C1DED260B00F5B074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2BB43A1DED260B00F5B074 /* LaunchScreen.storyboard */; };
+		CB2BB4471DED260B00F5B074 /* CBC__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2BB4461DED260B00F5B074 /* CBC__Tests.m */; };
+		CB2BB4521DED260B00F5B074 /* CBC__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2BB4511DED260B00F5B074 /* CBC__UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB2BB4431DED260B00F5B074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB2BB4211DED260B00F5B074 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB2BB4281DED260B00F5B074;
+			remoteInfo = "CBC加密";
+		};
+		CB2BB44E1DED260B00F5B074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB2BB4211DED260B00F5B074 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB2BB4281DED260B00F5B074;
+			remoteInfo = "CBC加密";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB2BB4291DED260B00F5B074 /* CBC加密.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CBC加密.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB2BB42D1DED260B00F5B074 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB2BB42F1DED260B00F5B074 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB2BB4301DED260B00F5B074 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB2BB4321DED260B00F5B074 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CB2BB4331DED260B00F5B074 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CB2BB4361DED260B00F5B074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB2BB4381DED260B00F5B074 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB2BB43B1DED260B00F5B074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB2BB43D1DED260B00F5B074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB2BB4421DED260B00F5B074 /* CBC加密Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CBC加密Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB2BB4461DED260B00F5B074 /* CBC__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBC__Tests.m; sourceTree = "<group>"; };
+		CB2BB4481DED260B00F5B074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB2BB44D1DED260B00F5B074 /* CBC加密UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CBC加密UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB2BB4511DED260B00F5B074 /* CBC__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBC__UITests.m; sourceTree = "<group>"; };
+		CB2BB4531DED260B00F5B074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB2BB4261DED260B00F5B074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB2BB43F1DED260B00F5B074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB2BB44A1DED260B00F5B074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB2BB4201DED260B00F5B074 = {
+			isa = PBXGroup;
+			children = (
+				CB2BB42B1DED260B00F5B074 /* CBC加密 */,
+				CB2BB4451DED260B00F5B074 /* CBC加密Tests */,
+				CB2BB4501DED260B00F5B074 /* CBC加密UITests */,
+				CB2BB42A1DED260B00F5B074 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB2BB42A1DED260B00F5B074 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB2BB4291DED260B00F5B074 /* CBC加密.app */,
+				CB2BB4421DED260B00F5B074 /* CBC加密Tests.xctest */,
+				CB2BB44D1DED260B00F5B074 /* CBC加密UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB2BB42B1DED260B00F5B074 /* CBC加密 */ = {
+			isa = PBXGroup;
+			children = (
+				CB2BB42F1DED260B00F5B074 /* AppDelegate.h */,
+				CB2BB4301DED260B00F5B074 /* AppDelegate.m */,
+				CB2BB4321DED260B00F5B074 /* ViewController.h */,
+				CB2BB4331DED260B00F5B074 /* ViewController.m */,
+				CB2BB4351DED260B00F5B074 /* Main.storyboard */,
+				CB2BB4381DED260B00F5B074 /* Assets.xcassets */,
+				CB2BB43A1DED260B00F5B074 /* LaunchScreen.storyboard */,
+				CB2BB43D1DED260B00F5B074 /* Info.plist */,
+				CB2BB42C1DED260B00F5B074 /* Supporting Files */,
+			);
+			path = "CBC加密";
+			sourceTree = "<group>";
+		};
+		CB2BB42C1DED260B00F5B074 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB2BB42D1DED260B00F5B074 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB2BB4451DED260B00F5B074 /* CBC加密Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CB2BB4461DED260B00F5B074 /* CBC__Tests.m */,
+				CB2BB4481DED260B00F5B074 /* Info.plist */,
+			);
+			path = "CBC加密Tests";
+			sourceTree = "<group>";
+		};
+		CB2BB4501DED260B00F5B074 /* CBC加密UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB2BB4511DED260B00F5B074 /* CBC__UITests.m */,
+				CB2BB4531DED260B00F5B074 /* Info.plist */,
+			);
+			path = "CBC加密UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB2BB4281DED260B00F5B074 /* CBC加密 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB2BB4561DED260B00F5B074 /* Build configuration list for PBXNativeTarget "CBC加密" */;
+			buildPhases = (
+				CB2BB4251DED260B00F5B074 /* Sources */,
+				CB2BB4261DED260B00F5B074 /* Frameworks */,
+				CB2BB4271DED260B00F5B074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CBC加密";
+			productName = "CBC加密";
+			productReference = CB2BB4291DED260B00F5B074 /* CBC加密.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB2BB4411DED260B00F5B074 /* CBC加密Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB2BB4591DED260B00F5B074 /* Build configuration list for PBXNativeTarget "CBC加密Tests" */;
+			buildPhases = (
+				CB2BB43E1DED260B00F5B074 /* Sources */,
+				CB2BB43F1DED260B00F5B074 /* Frameworks */,
+				CB2BB4401DED260B00F5B074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB2BB4441DED260B00F5B074 /* PBXTargetDependency */,
+			);
+			name = "CBC加密Tests";
+			productName = "CBC加密Tests";
+			productReference = CB2BB4421DED260B00F5B074 /* CBC加密Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB2BB44C1DED260B00F5B074 /* CBC加密UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB2BB45C1DED260B00F5B074 /* Build configuration list for PBXNativeTarget "CBC加密UITests" */;
+			buildPhases = (
+				CB2BB4491DED260B00F5B074 /* Sources */,
+				CB2BB44A1DED260B00F5B074 /* Frameworks */,
+				CB2BB44B1DED260B00F5B074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB2BB44F1DED260B00F5B074 /* PBXTargetDependency */,
+			);
+			name = "CBC加密UITests";
+			productName = "CBC加密UITests";
+			productReference = CB2BB44D1DED260B00F5B074 /* CBC加密UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB2BB4211DED260B00F5B074 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "王文杰";
+				TargetAttributes = {
+					CB2BB4281DED260B00F5B074 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					CB2BB4411DED260B00F5B074 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB2BB4281DED260B00F5B074;
+					};
+					CB2BB44C1DED260B00F5B074 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB2BB4281DED260B00F5B074;
+					};
+				};
+			};
+			buildConfigurationList = CB2BB4241DED260B00F5B074 /* Build configuration list for PBXProject "CBC加密" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB2BB4201DED260B00F5B074;
+			productRefGroup = CB2BB42A1DED260B00F5B074 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB2BB4281DED260B00F5B074 /* CBC加密 */,
+				CB2BB4411DED260B00F5B074 /* CBC加密Tests */,
+				CB2BB44C1DED260B00F5B074 /* CBC加密UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB2BB4271DED260B00F5B074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB2BB43C1DED260B00F5B074 /* LaunchScreen.storyboard in Resources */,
+				CB2BB4391DED260B00F5B074 /* Assets.xcassets in Resources */,
+				CB2BB4371DED260B00F5B074 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB2BB4401DED260B00F5B074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB2BB44B1DED260B00F5B074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB2BB4251DED260B00F5B074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB2BB4341DED260B00F5B074 /* ViewController.m in Sources */,
+				CB2BB4311DED260B00F5B074 /* AppDelegate.m in Sources */,
+				CB2BB42E1DED260B00F5B074 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB2BB43E1DED260B00F5B074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB2BB4471DED260B00F5B074 /* CBC__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB2BB4491DED260B00F5B074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB2BB4521DED260B00F5B074 /* CBC__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB2BB4441DED260B00F5B074 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB2BB4281DED260B00F5B074 /* CBC加密 */;
+			targetProxy = CB2BB4431DED260B00F5B074 /* PBXContainerItemProxy */;
+		};
+		CB2BB44F1DED260B00F5B074 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB2BB4281DED260B00F5B074 /* CBC加密 */;
+			targetProxy = CB2BB44E1DED260B00F5B074 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB2BB4351DED260B00F5B074 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB2BB4361DED260B00F5B074 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB2BB43A1DED260B00F5B074 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB2BB43B1DED260B00F5B074 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB2BB4541DED260B00F5B074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB2BB4551DED260B00F5B074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB2BB4571DED260B00F5B074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CBC加密/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wangwenjie.CBC--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB2BB4581DED260B00F5B074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CBC加密/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wangwenjie.CBC--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CB2BB45A1DED260B00F5B074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CBC加密Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wangwenjie.CBC--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CBC加密.app/CBC加密";
+			};
+			name = Debug;
+		};
+		CB2BB45B1DED260B00F5B074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CBC加密Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wangwenjie.CBC--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CBC加密.app/CBC加密";
+			};
+			name = Release;
+		};
+		CB2BB45D1DED260B00F5B074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CBC加密UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wangwenjie.CBC--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CBC加密";
+			};
+			name = Debug;
+		};
+		CB2BB45E1DED260B00F5B074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CBC加密UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wangwenjie.CBC--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CBC加密";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB2BB4241DED260B00F5B074 /* Build configuration list for PBXProject "CBC加密" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB2BB4541DED260B00F5B074 /* Debug */,
+				CB2BB4551DED260B00F5B074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB2BB4561DED260B00F5B074 /* Build configuration list for PBXNativeTarget "CBC加密" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB2BB4571DED260B00F5B074 /* Debug */,
+				CB2BB4581DED260B00F5B074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB2BB4591DED260B00F5B074 /* Build configuration list for PBXNativeTarget "CBC加密Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB2BB45A1DED260B00F5B074 /* Debug */,
+				CB2BB45B1DED260B00F5B074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB2BB45C1DED260B00F5B074 /* Build configuration list for PBXNativeTarget "CBC加密UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB2BB45D1DED260B00F5B074 /* Debug */,
+				CB2BB45E1DED260B00F5B074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB2BB4211DED260B00F5B074 /* Project object */;
+}
